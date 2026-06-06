@@ -13,4 +13,4 @@ RUN chown -R actual-sync:nodejs /app
 USER actual-sync
 RUN chmod +x actual-sync
 ENTRYPOINT ["./actual-sync"]
-CMD ["--help"]
+CMD ["sync"]
